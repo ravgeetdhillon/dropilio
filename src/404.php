@@ -1,12 +1,7 @@
 <?php
 
-// set the header for the json response
-header('Content-Type: application/json');
-
-
-// include the helper module and initialize the environment
-require "helpers.php";
-init_environment();
+// include the required modules
+require_once __DIR__."/includes/helpers.php";
 
 
 // send a 404 response
