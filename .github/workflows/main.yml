@@ -1,0 +1,15 @@
+name: Keep Alive
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+
+jobs:
+  keep-alive:
+    env:
+      APP_URL: https://example.herokuapp.com
+    runs-on: ubuntu-latest
+    steps:
+    - name: Curl Request
+      run: |
+        curl -s ${APP_URL} > /dev/null
