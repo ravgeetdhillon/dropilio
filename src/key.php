@@ -22,19 +22,19 @@ function index($twilio_sid, $twilio_token, $dropbox_key, $dropbox_secret, $dropb
     $errors = array();
 
     if (!is_valid($twilio_sid)) {
-        $errors[] = "'TWILIO_SID' parameter is either empty or invalid";
+        $errors[] = "TWILIO_SID parameter is either empty or invalid";
     }
     if (!is_valid($twilio_token)) {
-        $errors[] = "'TWILIO_TOKEN' parameter is either empty or invalid";
+        $errors[] = "TWILIO_TOKEN parameter is either empty or invalid";
     }
     if (!is_valid($dropbox_key)) {
-        $errors[] = "'DROPBOX_KEY' parameter is either empty or invalid";
+        $errors[] = "DROPBOX_KEY parameter is either empty or invalid";
     }
     if (!is_valid($dropbox_secret)) {
-        $errors[] = "'DROPBOX_SECRET' parameter is either empty or invalid";
+        $errors[] = "DROPBOX_SECRET parameter is either empty or invalid";
     }
     if (!is_valid($dropbox_token)) {
-        $errors[] = "'DROPBOX_TOKEN' parameter is either empty or invalid";
+        $errors[] = "DROPBOX_TOKEN parameter is either empty or invalid";
     }
 
     // perform the request based on the errors array

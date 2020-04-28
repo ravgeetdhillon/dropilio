@@ -23,7 +23,7 @@ function index($key, $to, $body, $media='') {
     $errors = array();
 
     if (!is_valid($key)) {
-        $errors[] = "'to' parameter is either empty or invalid";
+        $errors[] = "Authorization key is either empty or invalid";
     }
     else {
         if (!confirm_hash($key)) {
@@ -32,14 +32,14 @@ function index($key, $to, $body, $media='') {
         }
     }
     if (!is_valid($to)) {
-        $errors[] = "'to' parameter is either empty or invalid";
+        $errors[] = "to parameter is either empty or invalid";
     }
     if (!is_valid($body)) {
-        $errors[] = "'body' parameter is either empty or invalid";
+        $errors[] = "body parameter is either empty or invalid";
     }
     if ($media != '') {
         if ($media['error'] != 0) {
-            $errors[] = "'media' parameter is invalid";
+            $errors[] = "media parameter is invalid";
         }
     }
 
