@@ -1,5 +1,0 @@
-ErrorDocument 404 /404.php
-<Files .htaccess>
-order allow,deny
-deny from all
-</Files>
