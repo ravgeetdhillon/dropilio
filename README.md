@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/ravgeetdhillon/dropilio/master/assets/dropilio-logo.png" alt="Dropilio logo" width="80">
+<img src="https://raw.githubusercontent.com/ravgeetdhillon/dropilio/master/assets/dropilio-logo.png" alt="Dropilio logo" width="120">
 
 # Dropilio
 
