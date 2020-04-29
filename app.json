@@ -38,8 +38,8 @@
             "value": ""
         },
         "DROPILIO_KEY": {
-            "description": "Your Dropilio Auth Key (Self-generated)",
-            "value": "Use your own or browse to https://www.ravgeet.dev/projects/dropilio for more information"
+            "description": "Your Dropilio Auth Key (Self-generated) Use your own or browse to https://www.ravgeet.dev/projects/dropilio for more information",
+            "value": "k392dnc723k97clm32o9nc"
         }
     }
 }

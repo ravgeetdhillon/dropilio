@@ -46,10 +46,11 @@ To set up the app properly, you need Twilio and Dropbox credentials. Collect all
 | - | - |
 | Twilio Account Sid | Your primary Twilio account identifier - find this [in the console](https://www.twilio.com/console). |
 | Twilio Auth Token | Used to authenticate - find this [in the console](https://www.twilio.com/console). |
+| Twilio Phone Number | Your registered Twilio phone number. You can get it at https://twilio.com/console" |
 | Dropbox App Key | Your primary Dropbox app identifier - find this [in the console](https://www.dropbox.com/developers/apps). |
 | Dropbox App Secret | Your primary Dropbox app secret - find this [in the console](https://www.dropbox.com/developers/apps). |
 | Dropbox App Token | Your primary Dropbox app authentication - find this [in the console](https://www.dropbox.com/developers/apps). |
-| Dropilio App Key | Used to authenticate the requests (Self-generated) |
+| Dropilio App Key | Used to authenticate the requests (Self-generated) Use your own or browse to https://www.ravgeet.dev/projects/dropilio for more information |
 
 ### Local development
 
