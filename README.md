@@ -27,7 +27,7 @@ If you are working on a Desktop application, and you want to send a Whatsapp mes
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-You can deploy Dropilio directly on [Heroku](https://www.heroku.com/) and start using the service within a minute
+You can deploy Dropilio directly on [Heroku](https://www.heroku.com/) and start using the service within a minute.
 
 ## Set up
 
@@ -76,7 +76,7 @@ composer install
 
 ## Contributing
 
-Dropilio is open source and welcomes contributions. All the issues can be filed here. Any new feature requests are also welcome. All contributions are subject to our [Code of Conduct](https://github.com/ravgeetdhillon/dropilio/blob/master/CODE_OF_CONDUCT.md).
+Dropilio is open source and welcomes contributions. Read our [contribution guidelines](https://github.com/ravgeetdhillon/dropilio/blob/master/CONTRIBUTING.md) before filing any issur or submitting a pull request. All contributions are subject to our [Code of Conduct](https://github.com/ravgeetdhillon/dropilio/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -84,4 +84,4 @@ Dropilio is open source and welcomes contributions. All the issues can be filed 
 
 ## Disclaimer
 
-No warranty expressed or implied. Software is as-is.
+No warranty expressed or implied. Software is as-is. This project was originally developed by [Ravgeet Dhillon](https://ravgeet.dev). For more information regarding the project, visit the [official project page](https://www.ravgeet.dev/projects/dropilio).
