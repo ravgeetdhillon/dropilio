@@ -21,6 +21,10 @@
             "description": "Your Twilio Auth Token. You can get it at https://twilio.com/console",
             "value": ""
         },
+        "TWILIO_PHONE_NUMBER": {
+            "description": "Your registered Twilio phone number. You can get it at https://twilio.com/console",
+            "value": ""
+        },
         "DROPBOX_KEY": {
             "description": "Your Dropbox App Key. You can get it at https://www.dropbox.com/developers/apps",
             "value": ""
@@ -35,7 +39,7 @@
         },
         "DROPILIO_KEY": {
             "description": "Your Dropilio Auth Key (Self-generated)",
-            "value": ""
+            "value": "Use your own or browse to https://www.ravgeet.dev/projects/dropilio for more information"
         }
     }
 }

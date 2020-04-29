@@ -19,7 +19,4 @@ $DROPBOX_SECRET = getenv("DROPBOX_SECRET");
 $DROPBOX_TOKEN = getenv("DROPBOX_TOKEN");
 
 
-// app related global configuration settings
-$WEBSITE_BASE_URL = "http://dropilio.web";
-
 ?>
