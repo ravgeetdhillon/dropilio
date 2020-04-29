@@ -10,7 +10,7 @@ if (!count(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS))) {
 // credentials provided by Twilio
 $TWILIO_SID = getenv("TWILIO_SID");
 $TWILIO_TOKEN = getenv("TWILIO_TOKEN");
-$REGISTERED_NUMBER = "+14155238886";
+$REGISTERED_NUMBER = getenv("TWILIO_PHONE_NUMBER");
 
 
 // credentials provided by Dropbox
